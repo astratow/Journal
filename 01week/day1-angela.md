@@ -1,4 +1,5 @@
 # Angela Yu - Python Course
+## Day 1
 I learnt following:
 - print()
 - input()
