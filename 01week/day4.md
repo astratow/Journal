@@ -4,4 +4,3 @@
 - I wrote [Banker's Roulette](bank_roul.py) program to choose name from the name list. Horrible little thing!
 - I struggled with [Treasure Island Map](map.py). I did it by watching video at the end. I could not work out how to put pieces together:(
 - I wrote [Rock Paper Scissors](rps.py) game. It was fairly easy as I written similar thing in JavaScript before.
-- I wrote [Average Height Calculator](av_height.py). Loops in Python are weird.. I had to look up at solution.
