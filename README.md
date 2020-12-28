@@ -4,3 +4,4 @@
 - [Day 2](01week/day2.md)
 - [Day 3](01week/day3.md)
 - [Day 4](01week/day4.md)
+- [Day 5](01week/day5.md)
