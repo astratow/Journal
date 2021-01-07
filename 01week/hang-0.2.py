@@ -1,6 +1,7 @@
-#hang-0.2.py
+#hang-0.2.1.py
 #while loop added so you can guess the word
 import random
+
 word_list = ["aardvark", "baboon", "camel"]
 word_chosen = random.choice(word_list)
 

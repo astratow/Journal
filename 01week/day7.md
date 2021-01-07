@@ -5,4 +5,5 @@
 
 word_matrix = ['_'] * word_length
 
-- Set up end_of_game variable on False and added while loop that runs through all the letters and gets player to guess them until no more left and end_of_game is getting switched to True. You can see source code [here](hang-0.2.py).
+- Set up end_of_game variable on False and added while loop that runs through all the letters and gets player to guess them until no more left and end_of_game is getting switched to True. You can see source code [here](hang-0.2py).
+- I added stages list and tried to add some functionality, but failed for now... To be continued.. Source code [here](hang-0.2.1.py)
