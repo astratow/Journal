@@ -2,8 +2,12 @@
 #while loop added so you can guess the word
 #hang-0.2.1.py
 #stages list added
-#hang-0.2.2
+#hang-0.2.2.py
 #added loosing
+# hang-0.2.3.py
+# art and list of word added in separate files
+# hang-0.3.0.py
+# changed wording when wrong guess and added check if letter was typed before
 import random
 from hangman_art import logo, stages
 from hangman_words import word_list
