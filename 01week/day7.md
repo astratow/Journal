@@ -11,3 +11,4 @@ word_matrix = ['_'] * word_length
 - I checked my Hangman app with solution. Well, code was right, but wrong indentation and sequence plus I used wrong operator: == instead of =. Very naughty! Source code available [here](hang-0.2.3.py)
 - I started final stage of Hangman project. I added [art](hangman_art.py) and [list of words](han_words.py) which is just copying coursebook and importing it to the code.
 - I hanged Hangman for a time being, as I decided to build personal website.
+- I finished [Hangman](hang-0.3.0.py) and I think it's pretty nice little thing. Perhaps it can be upgraded, but I am not going to worry about just now. I also worked on my personal page...
