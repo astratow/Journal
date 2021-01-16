@@ -16,7 +16,7 @@ def encrypt():
     textList[j] = alphabet[alphabetPosition]
     j += 1
   textEncrypted = ''.join(textList)
-  print(textEncrypted)
+  print(f'Encoded text is {textEncrypted}')
 
     
 encrypt()
