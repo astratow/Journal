@@ -12,7 +12,8 @@ def encrypt():
     alphabetPosition = alphabet.index(i)
     alphabetPosition += shift
     #print(alphabetPosition)
-    
+        if alphabetPosition > 25:
+            alphabetPosition = alphabetPosition - 26
     
     textList[j] = alphabet[alphabetPosition]
     j += 1
