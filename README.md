@@ -6,6 +6,6 @@
 - [Day 4](01week/day4.md)
 - [Day 5](01week/day5.md)
 - [Day 6](01week/day6.md)
-## Happy NEW YEAR 2021
 - [Day 7](01week/day7.md)
 - [Day 8](02week/day08.md)
+- [Day 9](02week/day09.md)
