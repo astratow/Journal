@@ -1,4 +1,5 @@
 # Angela Yu - Python Course
 ## Day 9
 Day 9 starts 25 of January 2021. 
-- I played around dictionaries, which is data collection type in Python.
+- I played around dictionaries, which is data collection type in Python. 25.01.2021
+- I created [student grades](student_grades.py), an app that: goes through given dictionary with student names as keys and scores as values and markes them according to certain criteria as "Outstanding", "Exceeds Expectations", "Acceptable" or "Fail". I have done it myself, some refactoring added after watching solution, but purely cosmetic (using variable instead of dictionary entry in if statement: I used key[value] but she declared variable = key[value], which makes code shorter)
