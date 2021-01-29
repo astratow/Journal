@@ -9,3 +9,4 @@
 - [Day 7](01week/day7.md)
 - [Day 8](02week/day08.md)
 - [Day 9](02week/day09.md)
+- [Day 10](02week/day10.md)
