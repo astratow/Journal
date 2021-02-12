@@ -44,7 +44,7 @@ while not is_game_over:
   score_user = calculate_score(cards_user)
   score_computer = calculate_score(cards_computer)
   if score_computer == 0 or score_user == 0 or score_user > 21:
-  is_game_over = True 
+      is_game_over = True 
 while score_computer != 0 and score_computer > 17:
   cards_computer.append(deal_card())
   score_computer = calculate_score(cards_computer)
