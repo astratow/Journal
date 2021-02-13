@@ -6,4 +6,4 @@
 - 6/02/2021 day off
 - I worked on Blackjack, but there is still some errors to be fixed... Hopefully tomorrow. Lady Angela Yu told us that it is important to test code regularly.. Well, too late now... Although I should have known that anyway!
 - continue to work on Blackjack, but also started to listen to day 12...
-- finally fixed BlackJack! I was using append() method incorrectly: instead of value.append(something) I did value = value.append(something) which ended up with wiping off whole list... interesting!
+- finally fixed BlackJack! I was using append() method incorrectly: instead of value.append(something) I did value = value.append(something) which ended up with wiping off whole list... interesting! [Here](BlackJack.0.3.py) is my final code.
