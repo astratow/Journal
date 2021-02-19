@@ -4,3 +4,4 @@
 - I have started to code LowereHigher game. I checked data length, created random picker for two values. I need to output it nicely and compare. After I finish this, I will be intermediate Python programmer! Wow! 
 - I added player selection and right/wrong response. I need to add loops.
 - Added some loops and game is playable, but I need to remove answer from the selection, and we will be good! Getting there! [Here](Lower_Higher/LowerHigher-0.1.py) is the source code.
+- I watched the solution and it was quite different setup to what I did, but I am quite happy with my version and I will work on it to polish last bits.
