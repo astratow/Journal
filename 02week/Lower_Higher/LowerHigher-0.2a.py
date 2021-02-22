@@ -56,9 +56,9 @@ while not game_over:
   
   # if statement displays turn results
     if game_data.data[second_choice]["follower_count"] > game_data.data[first_choice]["follower_count"] and player_choice == 'y':
-        print(f'Right!\n {second_choice_name} has {second_choice_followers} followers\n {first_choice_name} has only {first_choice_followers} followers')
+        print(f'Right!\n {second_choice_name} has {second_choice_followers} followers\n{first_choice_name} has only {first_choice_followers} followers')
     elif game_data.data[second_choice]["follower_count"] < game_data.data[first_choice]["follower_count"] and player_choice == 'n':
-        print(f'Right!\n {second_choice_name} has {second_choice_followers} followers\n {first_choice_name} has {first_choice_followers} followers')
+        print(f'Right!\n{second_choice_name} has {second_choice_followers} followers\n {first_choice_name} has {first_choice_followers} followers')
     else:
         print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
         print(f'$ Wrong!\n$ {second_choice_name} has {second_choice_followers} followers \n$ {first_choice_name} has {first_choice_followers} followers\n$ You earned {point_count} point[s].\n$ Game over!')
