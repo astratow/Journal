@@ -10,9 +10,7 @@ game_over = False # set as false, so it plays until it's True
 point_count = 0 # counts points
 first_choice = -1 # this one is a bit weird, but it helps to create if statement later in order to compare first with second
 
-
-while not game_over:
-  
+while not game_over:  
     print(f"Points: {point_count} ")
   
 #generates first choice and pops up second choice to first in following round
@@ -56,7 +54,7 @@ while not game_over:
     if game_data.data[second_choice]["follower_count"] > game_data.data[first_choice]["follower_count"] and player_choice == 'y':
         print(f'Right!\n {second_choice_name} has {second_choice_followers} followers\n{first_choice_name} has only {first_choice_followers} followers')
     elif game_data.data[second_choice]["follower_count"] < game_data.data[first_choice]["follower_count"] and player_choice == 'n':
-        print(f'Right!\n{second_choice_name} has {second_choice_followers} followers\n {first_choice_name} has {first_choice_followers} followers')
+        print(f'Right!\n{second_choice_name} has {second_choice_followers} followers\n{first_choice_name} has {first_choice_followers} followers')
     else:
         print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
         print(f'$ Wrong!\n$ {second_choice_name} has {second_choice_followers} followers \n$ {first_choice_name} has {first_choice_followers} followers\n$ You earned {point_count} point[s].\n$ Game over!')
