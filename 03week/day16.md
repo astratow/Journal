@@ -7,3 +7,4 @@
 - 25.02.2021 Day off. Kids playing up since 4AM!
 - I played around PrettyTable. I created a table with add_column() method and changed align attribute. Pretty fun.
 - Happy Birthday!
+- I started to work with PyCharm. Despite it's a great tool, it takes all my memory, as I use old PC...
