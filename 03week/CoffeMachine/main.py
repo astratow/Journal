@@ -8,5 +8,4 @@ while on:
         on = False
     elif choice == "r" or choice == "report":
         for key in resources:
-            print(key)
-            print(resources[key])
+            print(key, resources[key])
