@@ -4,3 +4,4 @@
 *Starting new week and intermediate level of Python programming course!
 - I listened to installation instructions for Python and PyCharm.
 - I listened about digital coffee vending machine project, but it seem so out of reality, that I am not sure if I want to do it.
+- I decided to do it along...
