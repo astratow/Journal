@@ -3,8 +3,14 @@ from data import MENU, resources, profit
 #print(resources)
 
 def resources_check(order_ingredients):
+    #resources_ok = True
     for item in order_ingredients:
-        if order_ingredients >= resources[item]:
+        if order_ingredients[item] >= resources[item]:
+            print(f"Sorry there is not enough{item}.")
+            #resources_ok = False
+            return False
+    return True
+            
 
 on = True
 while on:
