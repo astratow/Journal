@@ -51,21 +51,21 @@ while on:
         drink = MENU["espresso"]
         if resources_check(drink["ingredients"]):
             payment = process_coins()
-            transaction_check(payment, drink["cost"])
-            make_coffee("espresso", drink["ingredients"])
+            if transaction_check(payment, drink["cost"]):
+                make_coffee("espresso", drink["ingredients"])
     elif choice == "l":
         print(MENU["latte"])
         drink = MENU["latte"]
         if resources_check(drink["ingredients"]):
             payment = process_coins()
-            transaction_check(payment, drink["cost"])
-            make_coffee("latte", drink["ingredients"])
+            if transaction_check(payment, drink["cost"]):
+                make_coffee("latte", drink["ingredients"])
     elif choice == "c":
         print(MENU["cappuccino"])
         drink = MENU["cappuccino"]
         if resources_check(drink["ingredients"]):
             payment = process_coins()
-            transaction_check(payment, drink["cost"])
-            make_coffee("cappuccino", drink["ingredients"])
+            if transaction_check(payment, drink["cost"]):
+                make_coffee("cappuccino", drink["ingredients"])
     else:
         print("Incorrect choice.")
