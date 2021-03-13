@@ -1,4 +1,5 @@
 # Angela Yu - Python Course
+[INDEX](../README.md)
 ## Day 13 - Debugging
 ### Day 13 starts 14 of February 2021.
 - I did this one in one day. I just listened to the lecture, I did some exercises, but really all this stuff was pretty basic to what I know already. Angela Yu was talking about principals of debugging:
