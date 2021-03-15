@@ -12,3 +12,5 @@
 - Ask friend. Sadly I have no friends in developing world.
 - Run code often. Yes, yes, easier said than done. I found it really hard to implement when I was doing PHP course, somehow the code was all over the place and I could not run it until I had a chunk of it... I messed up and it was too late to do anything... I am still looking for some answers now...
 - Ask Stack Overflow. Well, my experience with this platform as active user is very negative, they removed my post saying it has been answered already. I did it on my own by taking a break :) So there you go!
+
+[INDEX](../README.md)

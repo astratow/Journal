@@ -1,4 +1,5 @@
 # Angela Yu - Python Course
+[INDEX](../README.md)
 ## Day 9
 Day 9 starts 25 of January 2021. 
 - I played around dictionaries, which is data collection type in Python. 25.01.2021
@@ -6,3 +7,5 @@ Day 9 starts 25 of January 2021.
 - Lots of theory around dictionaries and some exercises about forlooping those dictionaries.
 - I have started to do [bidding app](bid.0.1.py) 27.01.2021
 - I have finished day 9 with [bidding app](bid.0.5.py). I used different naming and I made user interface a little friendlier by using y/n instead yes/no.
+
+[INDEX](../README.md)

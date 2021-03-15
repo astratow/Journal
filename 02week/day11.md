@@ -1,4 +1,5 @@
 # Angela Yu - Python Course
+[INDEX](../README.md)
 ### Day 11
 ### Day 11 starts 3 of February 2021. 
 - I have started to look at Blackjack Project.
@@ -7,3 +8,5 @@
 - I worked on Blackjack, but there is still some errors to be fixed... Hopefully tomorrow. Lady Angela Yu told us that it is important to test code regularly.. Well, too late now... Although I should have known that anyway!
 - I continue to work on Blackjack, but also started to listen to day 12...
 - I finally fixed BlackJack! I was using append() method incorrectly: instead of list.append(value) I did list = list.append(value) which ended up with wiping off whole list... interesting! [Here](BlackJack.0.3.py) is my final code. I am happy that I have done it!
+
+[INDEX](../README.md)
