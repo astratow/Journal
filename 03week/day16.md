@@ -11,5 +11,6 @@
 - I started to work with PyCharm. Despite it's a great tool, it takes all my memory, as I use old PC...
 - I wrote along with Angela OOP version of coffee machine simulator. I could not be ask to do too many changes to the code as the classes were written in such a way, that remapping it all would be just time consuming exercise...
 - I managed to run Python on Linux laptop.
+- I have done some of Stefan Mischook Python course, sadly Udemy did not work for me today:/
 
 [INDEX](../README.md)
