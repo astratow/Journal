@@ -9,4 +9,4 @@ for question in question_data:
     new_question = Question(question_text, question_answer)
     question.append(new_question)
     
-print(question_bank)
+print(question_bank[0].answer)
