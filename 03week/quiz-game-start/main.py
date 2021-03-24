@@ -13,7 +13,7 @@ for question in question_data:
     
 quiz = QuizBrain(question_bank)
 
-while quiz.question_left:
+while quiz.question_left():
     quiz.question_next()
 
 print("You have completed the quiz!")
