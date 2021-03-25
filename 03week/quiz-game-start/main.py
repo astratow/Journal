@@ -5,8 +5,8 @@ from quiz_brain import QuizBrain
 #getting questions
 question_bank = []
 for question in question_data:
-    question_text = question["text"]
-    question_answer = question["answer"]    
+    question_text = question["question"]
+    question_answer = question["correct_answer"]    
     question_new = Question(question_text, question_answer)
     question_bank.append(question_new)
     #AttributeError: 'dict' object has no attribute 'append'
