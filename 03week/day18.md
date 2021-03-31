@@ -5,4 +5,6 @@
 - I started to listen about turtle module.
 - I wrote a [turtle shapes generator](Day-18/Turtle-shapes.py).
 - I work on [random walk](Day-18/random-walk.py)
+
+
 [INDEX](../README.md)
