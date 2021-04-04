@@ -7,5 +7,7 @@
 - I work on [random walk](Day-18/random-walk.py)
 - I wrote an app, that draws circle. She called it [sphirograph](Day-18/sphirograph.py)
 - Not very Python day - I opened Wordpress hosting account and started to work on my website...
+- I started to work on Hirst Project
+
 
 [INDEX](../README.md)
