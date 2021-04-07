@@ -16,17 +16,19 @@ tim.setpos(-250, 250)
 #     b = color.rgb.b
 #     new_color = (r, g, b)
 #     rgb_colors.append(new_color)
-
 #print(rgb_colors)
+tim.setheading(0)
+tim.forward(10)
+#tim.setheading(180)
+#tim.forward(500)
+number_of_dots = 100
 
-
-for _ in range(10):
+for dot_count in range(1, number_of_dots):
     tim.dot(20, random.choice(rgb_colors))
     tim.forward(50)
-tim.setheading(270)
-tim.forward(50)
-tim.setheading(180)
-tim.forward(500)
+    if dot_count % 10 == 0:
+        tim.setheading(270)
+        tim.forward(50)
 
 screen = turtle_mod.Screen()
 screen.exitonclick()
