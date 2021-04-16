@@ -2,7 +2,7 @@
 [INDEX](../README.md)
 ### Day 20
 ### Day 20 starts 13 of April 2021. 
-I have started to build classic snake game
+I have started to build [classic snake game](Day-20/snake.py)
 
 
 [INDEX](../README.md)
