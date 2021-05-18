@@ -83,14 +83,25 @@ ul{
 	border: 1px solid var(--borderColor);
 	-webkit-box-shadow: 8px 12px 10px 10px #000000; 
 	box-shadow: 8px 12px 10px 10px #000000;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: ;
+	grid-template-areas: 
+	'nav-wrapper nav-wrapper'
+	'left-column right-column';
 }
 .nav-wrapper{
+	grid-area: nav-wrapper;
 	border: 1px dashed lightcoral;
+
 }
-.left-columm{
+.left-column{
+	grid-area: left-column;
 	border: 1px dashed lightcoral;
 }
 .right-column{
+	grid-area: right-column;
 	border: 1px dashed lightcoral;
 }
 
