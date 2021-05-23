@@ -96,6 +96,7 @@ ul{
 .nav-wrapper{
 	grid-area: nav-wrapper;
 	/*border: 1px dashed lightcoral;*/
+	border-bottom: 1px solid var(--borderColor);
 
 }
 .left-column{
