@@ -48,11 +48,11 @@ a{
 	color: #17a2b8;
 }
 
-/*no bullets on lists*/
+/*no bullets on lists
 ul{
 	list-style: none;
 }
-
+*/
 
 .s1{
 	background-color: var(--mainColor);
@@ -82,8 +82,11 @@ ul{
 	background-color: : var(--secondaryColor);
 	border: 1px solid var(--borderColor);
 	border-radius: 5px 5px 0 0;
-	-webkit-box-shadow: 8px 12px 10px 10px #000000; 
-	box-shadow: 8px 12px 10px 10px #000000;
+
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0, 0.75); 
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0, 0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0, 0.75); 
+
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -97,14 +100,33 @@ ul{
 	grid-area: nav-wrapper;
 	/*border: 1px dashed lightcoral;*/
 	border-bottom: 1px solid var(--borderColor);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
+}
+.dots-wrapper{
+	display: flex;
+	padding: 10px;
+
+}
+#dot-1{
+	background-color: red;
+}
+
+#dot-1{
+	background-color: yellow;
+}
+
+#dot-1{
+	background-color: green;
 }
 .left-column{
 	grid-area: left-column;
 	/*border: 1px dashed lightcoral;*/
 }
 .right-column{
-	grid-area: right-column;
+	grid-area: right-columnn;
 	/*border: 1px dashed lightcoral;*/
 }
 
