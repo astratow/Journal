@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*//resets browser default settings to 0 so we start from blank page*/
+ul, ol{list-style-type: none;}
+li{
+	background-image: url("img/img.png");
+	backgrounf-repeat: no-repeat;
+	padding-left: 25px;
+	padding-top: 10px;
+	background-position: 0px 9px;
+	float: left;
+	margin-left: 5;
+	padding: 0;
+	overflow: hidden;
+}
+a{
+    display: block; /* helps display all the links in equal boxes*/
+    width: 70px;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+/*block level tags, extends to the entire width of the containing tag
+//overflow:hidden prevents li element from going outside of the list
+//display: none; //hides things
+//visibility: hidden; hides things
+//
+//https://youtu.be/r_hYR53r61M
